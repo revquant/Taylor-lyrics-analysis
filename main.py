@@ -25,7 +25,7 @@ nltk.download('vader_lexicon')
 stop_words = set(stopwords.words('english'))
 sia = SentimentIntensityAnalyzer()
 
-# Group songs by 5-year intervals
+# Group songs by 1-year intervals
 intervals = defaultdict(list)
 for song in lyrics_data:
     try:
